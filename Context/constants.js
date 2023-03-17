@@ -1,6 +1,8 @@
-//0x5FbDB2315678afecb367f032d93F642f64180aa3
+//0xEDbAE91A4D7969302B1c588958f48eE7aFf0564F
 import chatApp from "./ChatApp.json";
 
-export const ChatAppAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+export const ChatAppAddress = "0xEDbAE91A4D7969302B1c588958f48eE7aFf0564F";
 
 export const ChatAppABI = chatApp.abi;
+
+//0xEDbAE91A4D7969302B1c588958f48eE7aFf0564F
