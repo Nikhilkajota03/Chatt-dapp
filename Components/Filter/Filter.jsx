@@ -22,10 +22,10 @@ const Filter = () => {
           </div>
         </div>
         <div className={Style.Filter_box_right}>
-          <button>
+          {/* <button>
             <Image src={images.clear} alt="clear" width={20} height={20} />
             CLEAR CHAT
-          </button>
+          </button> */}
           <button onClick={() => setAddFriend(true)}>
             <Image src={images.user} alt="clear" width={20} height={20} />
             ADD FRIEND
@@ -40,7 +40,7 @@ const Filter = () => {
             openBox={setAddFriend}
             title="WELCOME TO"
             head="CHAT BUDDY"
-            info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit doloribus quod vel expedita, dicta voluptatibus, nemo, deserunt minima quis recusandae porro officiis modi fugiat libero tempora corporis necessitatibus itaque!"
+            info=""
             smallInfo="Kindley Select Your Friend Name & Address.."
             image={images.hero}
             functionName={addFriends}

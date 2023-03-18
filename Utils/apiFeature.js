@@ -55,13 +55,13 @@ export const connectingWithContract = async () => {
 };
 
 export const converTime = (time) => {
-  const newTime = new Date(time.toNumber());
+  const newTime = new Date(time * 1000);
 
   const realTime =
     newTime.getHours() +
-    "/" +
+    ":" +
     newTime.getMinutes() +
-    "/" +
+    ":" +
     newTime.getSeconds() +
     "  Date:" +
     newTime.getDate() +

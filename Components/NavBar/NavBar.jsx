@@ -18,14 +18,7 @@ const NavBar = () => {
       menu: "CHAT",
       link: "/",
     },
-    {
-      menu: "CONTACT",
-      link: "/",
-    },
-    {
-      menu: "SETTING",
-      link: "/",
-    },
+   
   ];
 
   //USESTATE
@@ -128,9 +121,9 @@ const NavBar = () => {
           <Model
             openBox={setOpenModel}
             title="WELCOME TO"
-            head="CHAT BUDDY"
-            info="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate maxime assumenda exercitationem voluptatibus, vero aliquid in tempore aut, impedit dolores voluptate recusandae nulla fuga? Praesentium iusto mollitia sint fugit! Placeat?"
-            smallInfo="Kindley seclet your name..."
+            head="CHAT KARO"
+            info=" "
+            smallInfo="REGISTER YOURSELF HERE"
             image={images.hero}
             functionName={createAccount}
             address={account}
